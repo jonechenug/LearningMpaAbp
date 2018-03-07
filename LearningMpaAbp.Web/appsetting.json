@@ -1,0 +1,12 @@
+{
+    "Redis相关": "===",
+    "RedisConfiguration": {
+      "InstanceDbId": 14,
+      "InstanceRedisConnectionString": "127.0.0.1"
+    },
+    "MongoDb配置": "===",
+    "MongoDbConfiguration": {
+      "ConnectionString": "mongodb://127.0.0.1:27017/?connectTimeoutMS=300000",
+      "DatatabaseName": "local"
+    }
+  }

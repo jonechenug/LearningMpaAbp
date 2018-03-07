@@ -56,7 +56,12 @@ namespace LearningMpaAbp.Web
             {
                 cache.DefaultSlidingExpireTime = TimeSpan.FromMinutes(10);
             });
-            
+
+
+            ConfigurationExtenion.InitConfigService<RedisConfiguration>(IocManager,ConfigurationExtenion.AppConfiguration, "RedisConfiguration");
+            ConfigurationExtenion.InitConfigService<MongodbConfiguration>(IocManager, ConfigurationExtenion.AppConfiguration, "MongoDbConfiguration");
+
+
         }
 
         public override void Initialize()

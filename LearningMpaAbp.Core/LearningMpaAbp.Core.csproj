@@ -141,6 +141,7 @@
     <Compile Include="Tasks\TaskAssignedEventData.cs" />
     <Compile Include="Tasks\TaskEventData.cs" />
     <Compile Include="Tasks\TaskManager.cs" />
+    <Compile Include="Configuration.cs" />
     <Compile Include="Users\User.cs" />
     <Compile Include="Users\UserManager.cs" />
     <Compile Include="Users\UserStore.cs" />
