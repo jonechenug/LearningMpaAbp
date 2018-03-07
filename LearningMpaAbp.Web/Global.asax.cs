@@ -11,7 +11,7 @@ namespace LearningMpaAbp.Web
         public MvcApplication()
         {
             ConfigurationExtenion.AppConfiguration = new ConfigurationBuilder()
-                .AddJsonFile("appsetting.json", optional: false, reloadOnChange: true)
+                .AddJsonFile("appsetting.conf", optional: false, reloadOnChange: true)
                 .Build();
         }
 

@@ -541,7 +541,9 @@
     <Content Include="Abp\Framework\styles\abp.mixings.css.map" />
     <Content Include="Abp\Framework\styles\abp.less" />
     <Content Include="Abp\Framework\styles\abp.css.map" />
-    <Content Include="appsetting.json" />
+    <None Include="appsetting.conf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Properties\PublishProfiles\shengjie - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\shengjie - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
