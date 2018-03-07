@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Linq;
 using System.Web.Mvc;
 using Abp.Dependency;
 using Abp.Json;
 using Abp.Web.Mvc.Authorization;
+using Microsoft.Extensions.Configuration;
 
 namespace LearningMpaAbp.Web.Controllers
 {
@@ -12,12 +14,6 @@ namespace LearningMpaAbp.Web.Controllers
         public ActionResult Index()
         {
             return View();
-        }
-
-        [AllowAnonymous]
-        public String GetConfigurationRoot()
-        {
-            return ConfigurationExtenion.AppConfiguration.ToJsonString();
         }
 
         [AllowAnonymous]
